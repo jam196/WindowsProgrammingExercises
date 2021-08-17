@@ -1,0 +1,23 @@
+E:\Code\C# Projects\Windows Programming Exercises\Windows Programming Exercises\bin\Release\Windows_Programming_Exercises.exe.config
+E:\Code\C# Projects\Windows Programming Exercises\Windows Programming Exercises\bin\Release\Windows_Programming_Exercises.exe
+E:\Code\C# Projects\Windows Programming Exercises\Windows Programming Exercises\bin\Release\Windows_Programming_Exercises.pdb
+E:\Code\C# Projects\Windows Programming Exercises\Windows Programming Exercises\bin\Release\MaterialDesignColors.dll
+E:\Code\C# Projects\Windows Programming Exercises\Windows Programming Exercises\bin\Release\MaterialDesignThemes.Wpf.dll
+E:\Code\C# Projects\Windows Programming Exercises\Windows Programming Exercises\bin\Release\MaterialDesignColors.pdb
+E:\Code\C# Projects\Windows Programming Exercises\Windows Programming Exercises\bin\Release\MaterialDesignThemes.Wpf.pdb
+E:\Code\C# Projects\Windows Programming Exercises\Windows Programming Exercises\bin\Release\MaterialDesignThemes.Wpf.xml
+E:\Code\C# Projects\Windows Programming Exercises\Windows Programming Exercises\obj\Release\Windows Programming Exercises.csproj.AssemblyReference.cache
+E:\Code\C# Projects\Windows Programming Exercises\Windows Programming Exercises\obj\Release\Dashboard.g.cs
+E:\Code\C# Projects\Windows Programming Exercises\Windows Programming Exercises\obj\Release\MainWindow.g.cs
+E:\Code\C# Projects\Windows Programming Exercises\Windows Programming Exercises\obj\Release\App.g.cs
+E:\Code\C# Projects\Windows Programming Exercises\Windows Programming Exercises\obj\Release\Windows_Programming_Exercises_MarkupCompile.cache
+E:\Code\C# Projects\Windows Programming Exercises\Windows Programming Exercises\obj\Release\Windows_Programming_Exercises_MarkupCompile.lref
+E:\Code\C# Projects\Windows Programming Exercises\Windows Programming Exercises\obj\Release\App.baml
+E:\Code\C# Projects\Windows Programming Exercises\Windows Programming Exercises\obj\Release\Dashboard.baml
+E:\Code\C# Projects\Windows Programming Exercises\Windows Programming Exercises\obj\Release\MainWindow.baml
+E:\Code\C# Projects\Windows Programming Exercises\Windows Programming Exercises\obj\Release\Windows_Programming_Exercises.g.resources
+E:\Code\C# Projects\Windows Programming Exercises\Windows Programming Exercises\obj\Release\Windows_Programming_Exercises.Properties.Resources.resources
+E:\Code\C# Projects\Windows Programming Exercises\Windows Programming Exercises\obj\Release\Windows Programming Exercises.csproj.GenerateResource.cache
+E:\Code\C# Projects\Windows Programming Exercises\Windows Programming Exercises\obj\Release\Windows Programming Exercises.csproj.CoreCompileInputs.cache
+E:\Code\C# Projects\Windows Programming Exercises\Windows Programming Exercises\obj\Release\Windows_Programming_Exercises.exe
+E:\Code\C# Projects\Windows Programming Exercises\Windows Programming Exercises\obj\Release\Windows_Programming_Exercises.pdb
