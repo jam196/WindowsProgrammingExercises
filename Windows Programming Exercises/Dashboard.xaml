@@ -556,6 +556,270 @@
                                 </StackPanel>
                             </materialDesign:Card>
                         </Border>
+                        <Border BorderBrush="White" BorderThickness="5" Margin="20 20" CornerRadius="15">
+                            <materialDesign:Card materialDesign:ShadowAssist.ShadowDepth="Depth0"
+                                                 UniformCornerRadius="15"
+                                                 BorderThickness="5"
+                                                 BorderBrush="White" Width="480" Height="300" Background="#F6F6F8">
+                                <StackPanel Margin="10" HorizontalAlignment="Left" Width="480">
+                                    <TextBlock
+                                        Margin="16 "
+                                        FontSize="16">
+                                        Tính tổng các số từ 1 đến n
+                                    </TextBlock>
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="1*" />
+                                            <ColumnDefinition Width="1*" />
+                                        </Grid.ColumnDefinitions>
+                                        <StackPanel Grid.Column="0">
+                                            <TextBox Name="Form10SoA" VerticalAlignment="Center"
+                                                     HorizontalAlignment="Center"
+                                                     materialDesign:HintAssist.Hint="Nhập n"
+                                                     Style="{StaticResource MaterialDesignTextBox}"
+                                                     materialDesign:TextFieldAssist.UnderlineBrush="Blue" Width="205"
+                                                     Margin="16"
+                                                     Height="33" FontSize="16" />
+                                        </StackPanel>
+                                        <StackPanel Grid.Column="1" VerticalAlignment="Center">
+                                            <Grid>
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="2*" />
+                                                    <ColumnDefinition Width="3*" />
+                                                </Grid.ColumnDefinitions>
+                                                <Button Grid.Column="0"
+                                                        Click="Button_Form10_Click"
+                                                        Style="{StaticResource MaterialDesignFloatingActionButton}"
+                                                        Background="#0d47a1" BorderBrush="{x:Null}" Foreground="Black">
+                                                    <StackPanel Margin="0" MouseDown="Button_Form10_Click">
+                                                        <materialDesign:PackIcon Foreground="White"
+                                                            MouseDown="Button_Form10_Click"
+                                                            Kind="Equal" />
+                                                    </StackPanel>
+                                                </Button>
+                                                <TextBlock Grid.Column="1"
+                                                           Margin="16"
+                                                           FontSize="16" Name="KetquaForm10" />
+                                            </Grid>
+                                        </StackPanel>
+                                    </Grid>
+
+                                </StackPanel>
+                            </materialDesign:Card>
+                        </Border>
+                        <Border BorderBrush="White" BorderThickness="5" Margin="20 20" CornerRadius="15">
+                            <materialDesign:Card materialDesign:ShadowAssist.ShadowDepth="Depth0"
+                                                 UniformCornerRadius="15"
+                                                 BorderThickness="5"
+                                                 BorderBrush="White" Width="480" Height="300" Background="#F6F6F8">
+                                <StackPanel Margin="10" HorizontalAlignment="Left" Width="480">
+                                    <TextBlock
+                                        Margin="16 "
+                                        FontSize="16">
+                                        Tính tích các số chẵn từ 2 đến n
+                                    </TextBlock>
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="1*" />
+                                            <ColumnDefinition Width="1*" />
+                                        </Grid.ColumnDefinitions>
+                                        <StackPanel Grid.Column="0">
+                                            <TextBox Name="Form11SoA" VerticalAlignment="Center"
+                                                     HorizontalAlignment="Center"
+                                                     materialDesign:HintAssist.Hint="Nhập n"
+                                                     Style="{StaticResource MaterialDesignTextBox}"
+                                                     materialDesign:TextFieldAssist.UnderlineBrush="Blue" Width="205"
+                                                     Margin="16"
+                                                     Height="33" FontSize="16" />
+                                        </StackPanel>
+                                        <StackPanel Grid.Column="1" VerticalAlignment="Center">
+                                            <Grid>
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="2*" />
+                                                    <ColumnDefinition Width="3*" />
+                                                </Grid.ColumnDefinitions>
+                                                <Button Grid.Column="0"
+                                                        Click="Button_Form11_Click"
+                                                        Style="{StaticResource MaterialDesignFloatingActionButton}"
+                                                        Background="#0d47a1" BorderBrush="{x:Null}" Foreground="Black">
+                                                    <StackPanel Margin="0" MouseDown="Button_Form11_Click">
+                                                        <materialDesign:PackIcon Foreground="White"
+                                                            MouseDown="Button_Form11_Click"
+                                                            Kind="Equal" />
+                                                    </StackPanel>
+                                                </Button>
+                                                <TextBlock Grid.Column="1"
+                                                           Margin="16"
+                                                           FontSize="16" Name="KetquaForm11" />
+                                            </Grid>
+                                        </StackPanel>
+                                    </Grid>
+
+                                </StackPanel>
+                            </materialDesign:Card>
+                        </Border>
+                        <Border BorderBrush="White" BorderThickness="5" Margin="20 20" CornerRadius="15">
+                            <materialDesign:Card materialDesign:ShadowAssist.ShadowDepth="Depth0"
+                                                 UniformCornerRadius="15"
+                                                 BorderThickness="5"
+                                                 BorderBrush="White" Width="480" Height="300" Background="#F6F6F8">
+                                <StackPanel Margin="10" HorizontalAlignment="Left" Width="480">
+                                    <TextBlock
+                                        Margin="16 "
+                                        FontSize="16">
+                                        Kiểm tra n có phải số nguyên tố không
+                                    </TextBlock>
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="1*" />
+                                            <ColumnDefinition Width="1*" />
+                                        </Grid.ColumnDefinitions>
+                                        <StackPanel Grid.Column="0">
+                                            <TextBox Name="Form12SoA" VerticalAlignment="Center"
+                                                     HorizontalAlignment="Center"
+                                                     materialDesign:HintAssist.Hint="Nhập n"
+                                                     Style="{StaticResource MaterialDesignTextBox}"
+                                                     materialDesign:TextFieldAssist.UnderlineBrush="Blue" Width="205"
+                                                     Margin="16"
+                                                     Height="33" FontSize="16" />
+                                        </StackPanel>
+                                        <StackPanel Grid.Column="1" VerticalAlignment="Center">
+                                            <Grid>
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="2*" />
+                                                    <ColumnDefinition Width="3*" />
+                                                </Grid.ColumnDefinitions>
+                                                <Button Grid.Column="0"
+                                                        Click="Button_Form12_Click"
+                                                        Style="{StaticResource MaterialDesignFloatingActionButton}"
+                                                        Background="#0d47a1" BorderBrush="{x:Null}" Foreground="Black">
+                                                    <StackPanel Margin="0" MouseDown="Button_Form12_Click">
+                                                        <materialDesign:PackIcon Foreground="White"
+                                                            MouseDown="Button_Form12_Click"
+                                                            Kind="Equal" />
+                                                    </StackPanel>
+                                                </Button>
+                                                <TextBlock Grid.Column="1"
+                                                           Margin="16"
+                                                           FontSize="16" Name="KetquaForm12" />
+                                            </Grid>
+                                        </StackPanel>
+                                    </Grid>
+
+                                </StackPanel>
+                            </materialDesign:Card>
+                        </Border>
+                        <Border BorderBrush="White" BorderThickness="5" Margin="20 20" CornerRadius="15">
+                            <materialDesign:Card materialDesign:ShadowAssist.ShadowDepth="Depth0"
+                                                 UniformCornerRadius="15"
+                                                 BorderThickness="5"
+                                                 BorderBrush="White" Width="480" Height="300" Background="#F6F6F8">
+                                <StackPanel Margin="10" HorizontalAlignment="Left" Width="480">
+                                    <TextBlock
+                                        Margin="16 "
+                                        FontSize="16">
+                                        Tìm các số nguyên tố từ 1 đến n
+                                    </TextBlock>
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="1*" />
+                                            <ColumnDefinition Width="1*" />
+                                        </Grid.ColumnDefinitions>
+                                        <StackPanel Grid.Column="0">
+                                            <TextBox Name="Form13SoA" VerticalAlignment="Center"
+                                                     HorizontalAlignment="Center"
+                                                     materialDesign:HintAssist.Hint="Nhập n"
+                                                     Style="{StaticResource MaterialDesignTextBox}"
+                                                     materialDesign:TextFieldAssist.UnderlineBrush="Blue" Width="205"
+                                                     Margin="16"
+                                                     Height="33" FontSize="16" />
+                                        </StackPanel>
+                                        <StackPanel Grid.Column="1" VerticalAlignment="Center">
+                                            <Grid>
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="2*" />
+                                                    <ColumnDefinition Width="3*" />
+                                                </Grid.ColumnDefinitions>
+                                                <Button Grid.Column="0"
+                                                        Click="Button_Form13_Click"
+                                                        Style="{StaticResource MaterialDesignFloatingActionButton}"
+                                                        Background="#0d47a1" BorderBrush="{x:Null}" Foreground="Black">
+                                                    <StackPanel Margin="0" MouseDown="Button_Form13_Click">
+                                                        <materialDesign:PackIcon Foreground="White"
+                                                            MouseDown="Button_Form13_Click"
+                                                            Kind="Equal" />
+                                                    </StackPanel>
+                                                </Button>
+                                                <TextBlock Grid.Column="1"
+                                                           TextWrapping="Wrap"
+                                                           Margin="16"
+                                                           FontSize="16" Name="KetquaForm13" />
+                                            </Grid>
+                                        </StackPanel>
+                                    </Grid>
+
+                                </StackPanel>
+                            </materialDesign:Card>
+                        </Border>
+                        <Border BorderBrush="White" BorderThickness="5" Margin="20 20" CornerRadius="15">
+                            <materialDesign:Card materialDesign:ShadowAssist.ShadowDepth="Depth0"
+                                                 UniformCornerRadius="15"
+                                                 BorderThickness="5"
+                                                 BorderBrush="White" Width="480" Height="300" Background="#F6F6F8">
+                                <StackPanel Margin="10" HorizontalAlignment="Left" Width="480">
+                                    <TextBlock
+                                        Margin="16 "
+                                        FontSize="16">
+                                        Tìm UCLN của a và b
+                                    </TextBlock>
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="1*" />
+                                            <ColumnDefinition Width="1*" />
+                                        </Grid.ColumnDefinitions>
+                                        <StackPanel Grid.Column="0">
+                                            <TextBox Name="Form14SoA" VerticalAlignment="Center"
+                                                     HorizontalAlignment="Center"
+                                                     materialDesign:HintAssist.Hint="Nhập a"
+                                                     Style="{StaticResource MaterialDesignTextBox}"
+                                                     materialDesign:TextFieldAssist.UnderlineBrush="Blue" Width="205"
+                                                     Margin="16"
+                                                     Height="33" FontSize="16" />
+                                            <TextBox Name="Form14SoB" VerticalAlignment="Center"
+                                                     HorizontalAlignment="Center"
+                                                     materialDesign:HintAssist.Hint="Nhập b"
+                                                     Style="{StaticResource MaterialDesignTextBox}"
+                                                     materialDesign:TextFieldAssist.UnderlineBrush="Blue" Width="205"
+                                                     Margin="16"
+                                                     Height="33" FontSize="16" />
+                                        </StackPanel>
+                                        <StackPanel Grid.Column="1" VerticalAlignment="Center">
+                                            <Grid>
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="2*" />
+                                                    <ColumnDefinition Width="3*" />
+                                                </Grid.ColumnDefinitions>
+                                                <Button Grid.Column="0"
+                                                        Click="Button_Form14_Click"
+                                                        Style="{StaticResource MaterialDesignFloatingActionButton}"
+                                                        Background="#0d47a1" BorderBrush="{x:Null}" Foreground="Black">
+                                                    <StackPanel Margin="0" MouseDown="Button_Form14_Click">
+                                                        <materialDesign:PackIcon Foreground="White"
+                                                            MouseDown="Button_Form14_Click"
+                                                            Kind="Equal" />
+                                                    </StackPanel>
+                                                </Button>
+                                                <TextBlock Grid.Column="1"
+                                                           TextWrapping="Wrap"
+                                                           Margin="16"
+                                                           FontSize="16" Name="KetquaForm14" />
+                                            </Grid>
+                                        </StackPanel>
+                                    </Grid>
+
+                                </StackPanel>
+                            </materialDesign:Card>
+                        </Border>
                     </WrapPanel>
                 </StackPanel>
             </Grid>

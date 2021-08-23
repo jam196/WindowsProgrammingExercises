@@ -21,3 +21,4 @@ E:\Code\C# Projects\Windows Programming Exercises\Windows Programming Exercises\
 E:\Code\C# Projects\Windows Programming Exercises\Windows Programming Exercises\obj\Release\Windows Programming Exercises.csproj.CoreCompileInputs.cache
 E:\Code\C# Projects\Windows Programming Exercises\Windows Programming Exercises\obj\Release\Windows_Programming_Exercises.exe
 E:\Code\C# Projects\Windows Programming Exercises\Windows Programming Exercises\obj\Release\Windows_Programming_Exercises.pdb
+E:\Code\C# Projects\Windows Programming Exercises\Windows Programming Exercises\obj\Release\Windows_Programming_Exercises_Content.g.cs

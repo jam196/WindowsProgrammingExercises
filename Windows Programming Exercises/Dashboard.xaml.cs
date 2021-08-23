@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Windows;
 using System.Windows.Controls;
 
@@ -155,6 +156,153 @@ namespace Windows_Programming_Exercises
                 }
 
                 KetquaForm9.Text = ketqua;
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Dữ liệu không hợp lệ");
+            }
+        }
+
+        private void Button_Form10_Click(object sender, System.Windows.RoutedEventArgs e)
+        {
+            try
+            {
+                int n = Int32.Parse(Form10SoA.Text);
+                int ketqua = 0;
+
+                for (int i = 0; i <= n; i++)
+                {
+                    ketqua += i;
+                }
+
+                KetquaForm10.Text = ketqua.ToString();
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Dữ liệu không hợp lệ");
+            }
+        }
+
+        private void Button_Form11_Click(object sender, System.Windows.RoutedEventArgs e)
+        {
+            try
+            {
+                int n = Int32.Parse(Form11SoA.Text);
+                int ketqua = 1;
+
+                if (n < 1)
+                {
+                    ketqua = 0;
+                }
+
+                for (int i = 1; i <= n; i++)
+                {
+                    if (i % 2 == 0)
+                    {
+                        ketqua *= i;
+                    }
+                }
+
+                KetquaForm11.Text = ketqua.ToString();
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Dữ liệu không hợp lệ");
+            }
+        }
+
+        private void Button_Form12_Click(object sender, System.Windows.RoutedEventArgs e)
+        {
+            try
+            {
+                int n = Int32.Parse(Form12SoA.Text);
+                String ketqua;
+
+                Boolean checkIsPrimeNumber = IsPrimeNumber(n);
+
+                if (checkIsPrimeNumber)
+                {
+                    ketqua = "Là số \nnguyên tố";
+                }
+                else
+                {
+                    ketqua = "Không phải \nsố nguyên số";
+                }
+
+                KetquaForm12.Text = ketqua;
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Dữ liệu không hợp lệ");
+            }
+        }
+
+        private Boolean IsPrimeNumber(int n)
+        {
+            Boolean isPrimeNumber;
+            int m = 0;
+
+            for (int i = 1; i <= n; i++)
+            {
+                if (n % i == 0)
+                {
+                    m++;
+                }
+            }
+
+            if (m == 2)
+            {
+                isPrimeNumber = true;
+            }
+            else
+            {
+                isPrimeNumber = false;
+            }
+
+            return isPrimeNumber;
+        }
+
+        private void Button_Form13_Click(object sender, System.Windows.RoutedEventArgs e)
+        {
+            try
+            {
+                int n = Int32.Parse(Form13SoA.Text);
+                List<String> ketqua = new List<String>();
+
+                for (int i = 2; i <= n; i++)
+                {
+                    Boolean checkIsPrimeNumber = IsPrimeNumber(i);
+                    if (checkIsPrimeNumber)
+                    {
+                        ketqua.Add(i.ToString());
+                    }
+                }
+
+                KetquaForm13.Text = String.Join(",", ketqua);
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Dữ liệu không hợp lệ");
+            }
+        }
+
+        private void Button_Form14_Click(object sender, System.Windows.RoutedEventArgs e)
+        {
+            try
+            {
+                int a = Int32.Parse(Form14SoA.Text);
+                int b = Int32.Parse(Form14SoB.Text);
+                int ketqua = 0;
+                int c = (a < b) ? a : b;
+                for (int i = 1; i <= c; i++)
+                {
+                    if (a % i == 0 && b % i == 0)
+                    {
+                        ketqua = i;
+                    }
+                }
+
+                KetquaForm14.Text = ketqua.ToString();
             }
             catch (Exception)
             {
