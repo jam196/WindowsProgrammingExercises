@@ -29,5 +29,11 @@ namespace Windows_Programming_Exercises
             if (e.ChangedButton == MouseButton.Left)
                 DragMove();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            RenderPages.Children.Clear();
+            RenderPages.Children.Add(new Views.Page1());
+        }
     }
 }

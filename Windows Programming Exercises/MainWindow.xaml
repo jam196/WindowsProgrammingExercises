@@ -222,7 +222,7 @@
                 </Grid.Resources>
                 <Grid Grid.Column="0">
                     <ListView Margin="0 15">
-                        <ListViewItem HorizontalAlignment="Center" Margin="0 10">
+                        <ListViewItem HorizontalAlignment="Center" Margin="0 2">
                             <Button Style="{StaticResource MaterialDesignFloatingActionButton}"
                                     HorizontalAlignment="Left"
                                     BorderBrush="{x:Null}" Background="{x:Null}" Foreground="Black">
@@ -231,7 +231,16 @@
                                 </StackPanel>
                             </Button>
                         </ListViewItem>
-                        <ListViewItem HorizontalAlignment="Center" Margin="0 10">
+                        <ListViewItem HorizontalAlignment="Center" Margin="0 2">
+                            <Button Style="{StaticResource MaterialDesignFloatingActionButton}"
+                                    HorizontalAlignment="Left"
+                                    BorderBrush="{x:Null}" Background="{x:Null}" Foreground="Black" Click="Button_Click">
+                                <StackPanel Margin="-5">
+                                    <materialDesign:PackIcon Kind="Table" />
+                                </StackPanel>
+                            </Button>
+                        </ListViewItem>
+                        <ListViewItem HorizontalAlignment="Center" Margin="0 2">
                             <Button Click="CloseButton_OnClick"
                                     Style="{StaticResource MaterialDesignFloatingActionButton}"
                                     HorizontalAlignment="Left"

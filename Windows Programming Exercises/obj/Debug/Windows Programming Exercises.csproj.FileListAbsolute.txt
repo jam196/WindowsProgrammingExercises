@@ -21,3 +21,8 @@ E:\Code\C# Projects\Windows Programming Exercises\Windows Programming Exercises\
 E:\Code\C# Projects\Windows Programming Exercises\Windows Programming Exercises\obj\Debug\Windows_Programming_Exercises.pdb
 E:\Code\C# Projects\Windows Programming Exercises\Windows Programming Exercises\obj\Debug\Dashboard.g.cs
 E:\Code\C# Projects\Windows Programming Exercises\Windows Programming Exercises\obj\Debug\Dashboard.baml
+E:\Code\C# Projects\Windows Programming Exercises\Windows Programming Exercises\obj\Debug\Windows_Programming_Exercises_Content.g.cs
+E:\Code\C# Projects\Windows Programming Exercises\Windows Programming Exercises\obj\Debug\EmptyPage.g.cs
+E:\Code\C# Projects\Windows Programming Exercises\Windows Programming Exercises\obj\Debug\EmptyPage.baml
+E:\Code\C# Projects\Windows Programming Exercises\Windows Programming Exercises\obj\Debug\Views\Page1.g.cs
+E:\Code\C# Projects\Windows Programming Exercises\Windows Programming Exercises\obj\Debug\Views\Page1.baml
