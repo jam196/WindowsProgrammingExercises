@@ -104,9 +104,11 @@ namespace Windows_Programming_Exercises.Views
 
             while (reader.Read())
             {
+                MessageBox.Show(reader["GioiTinh"].ToString());
+
                 HoDemTxt1.Text = reader["HoDem"].ToString();
                 TenSVTxt1.Text = reader["Ten"].ToString();
-                GioiTinhTxt1.Text = reader["GioiTinh"].ToString() == "true" ? "Nam" : "Nữ";
+                GioiTinhTxt1.Text = reader["GioiTinh"].ToString() == "True" ? "Nam" : "Nữ";
                 MaLopTxt1.Text = reader["MaLop"].ToString();
                 NgaySinhTxt1.Text = reader["NgaySinh"].ToString();
             }
