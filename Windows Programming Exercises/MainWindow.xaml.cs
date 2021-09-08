@@ -35,5 +35,11 @@ namespace Windows_Programming_Exercises
             RenderPages.Children.Clear();
             RenderPages.Children.Add(new Views.Page1());
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            RenderPages.Children.Clear();
+            RenderPages.Children.Add(new Views.Page2());
+        }
     }
 }

@@ -241,10 +241,19 @@
                             </Button>
                         </ListViewItem>
                         <ListViewItem HorizontalAlignment="Center" Margin="0 2">
+                            <Button Style="{StaticResource MaterialDesignFloatingActionButton}"
+                                    HorizontalAlignment="Left"
+                                    BorderBrush="{x:Null}" Background="{x:Null}" Foreground="Black" Click="Button_Click_1">
+                                <StackPanel Margin="-5">
+                                    <materialDesign:PackIcon Kind="FormatWrapInline" />
+                                </StackPanel>
+                            </Button>
+                        </ListViewItem>
+                        <ListViewItem HorizontalAlignment="Center" Margin="0 2">
                             <Button Click="CloseButton_OnClick"
                                     Style="{StaticResource MaterialDesignFloatingActionButton}"
                                     HorizontalAlignment="Left"
-                                    BorderBrush="{x:Null}" Background="{x:Null}" Foreground="Red" IsCancel="True">
+                                    BorderBrush="{x:Null}" Background="{x:Null}" Foreground="#df4759" IsCancel="True">
                                 <StackPanel Margin="-5">
                                     <materialDesign:PackIcon Kind="Close" />
                                 </StackPanel>

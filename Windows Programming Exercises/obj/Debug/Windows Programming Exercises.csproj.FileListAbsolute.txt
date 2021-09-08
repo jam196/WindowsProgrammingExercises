@@ -26,3 +26,6 @@ E:\Code\C# Projects\Windows Programming Exercises\Windows Programming Exercises\
 E:\Code\C# Projects\Windows Programming Exercises\Windows Programming Exercises\obj\Debug\EmptyPage.baml
 E:\Code\C# Projects\Windows Programming Exercises\Windows Programming Exercises\obj\Debug\Views\Page1.g.cs
 E:\Code\C# Projects\Windows Programming Exercises\Windows Programming Exercises\obj\Debug\Views\Page1.baml
+E:\Code\C# Projects\Windows Programming Exercises\Windows Programming Exercises\obj\Debug\Windows Programming Exercises.csproj.CopyComplete
+E:\Code\C# Projects\Windows Programming Exercises\Windows Programming Exercises\obj\Debug\Views\Page2.g.cs
+E:\Code\C# Projects\Windows Programming Exercises\Windows Programming Exercises\obj\Debug\Views\Page2.baml
